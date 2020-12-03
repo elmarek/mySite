@@ -1,12 +1,12 @@
 {
-  "name": "PersonalWebsite",
+  "name": "personalwebsite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo Error: no test specified && exit 1",
     "start": "nodemon server.js",
-    "run build": "webpack -d --watch"
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
-    "webpack-cli": "^4.0.0"
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
   }
 }

@@ -1,14 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
-import React, { Component } from 'react'
-
-export default class app extends Component {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
       <div>
         <h1>HELLO THERE, MAREK.</h1>
+        <p>This is your website!</p>
       </div>
-    )
+    );
   }
 }
+export default App;
