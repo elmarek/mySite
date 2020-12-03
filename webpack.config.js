@@ -8,10 +8,7 @@ module.exports = {
     filename: "bundle.js",
     path: DIST_DIR,
   },
-  watchOptions: {
-    poll: true,
-    ignored: /node_modules/,
-  },
+  watch: true,
   module: {
     rules: [
       {
